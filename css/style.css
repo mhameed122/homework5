@@ -220,8 +220,21 @@ header{
   body {
     background-image: none;
   }
+
+  .pricing {
+    align-items: flex-start;
+  }
+
   .card {
+
     flex-basis: 200px;
+  }
+
+  .card_big{
+
+    flex-basis: 200px;
+    -webkit-transform: scaleX(1.12);
+            transform: scaleX(1.12);
   }
 
   .gallery {
